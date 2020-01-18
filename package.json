@@ -1,0 +1,14 @@
+{
+  "name": "test-heroku-deploy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "heroku-postbuild": "cd client && yarn install && yarn build",
+    "start": "node server.js"
+  },
+  "author": "LOVELELESS <koh_rayson@yahoo.com.sg>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
