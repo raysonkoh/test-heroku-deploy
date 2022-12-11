@@ -9,6 +9,6 @@
   "author": "LOVELELESS <koh_rayson@yahoo.com.sg>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
